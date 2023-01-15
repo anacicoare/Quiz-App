@@ -34,7 +34,3 @@ $ python quiz.py
 * https://www.w3schools.com/python/matplotlib_pie_charts.asp
 * https://datatofish.com/matplotlib-charts-tkinter-gui/
 * https://www.geeksforgeeks.org/how-to-embed-matplotlib-charts-in-tkinter-gui/
-
-# Project Contribution #
- * Iulia-Andreea Constantinescu - TriviaDB fetch, easy, medium and difficult functions, start page
- * Cicoare Ana-Maria - SQLite login, login page, timer, diagram pie and the showmark function (the last page)
