@@ -15,11 +15,11 @@ The main features of this app are :
 * TriviaDB API
 * timer on questions
 
-We began by creating the FrontEnd, the start page, sign up page and login page using TkInter's Documentation. In quiz.db are stored the accounts and the application connects to this database using SQLite syntax (functions addUserToDataBase and gotoLogin).
+I began by creating the FrontEnd, the start page, sign up page and login page using TkInter's Documentation. In quiz.db are stored the accounts and the application connects to this database using SQLite syntax (functions addUserToDataBase and gotoLogin).
 
-Then, we created the menu prompting you to choose the difficulty and start the actual quiz based on that. Every difficulty has its special functions getting the questions from TriviaDB's API. Based on the button pressed we start each function. Using the requests module, we get the questions from https://opentdb.com/api_config.php. Then, start the quiz, display the questions, get the answers and display the countdown on the TkInter frame. 
+Then, I created the menu prompting you to choose the difficulty and start the actual quiz based on that. Every difficulty has its special functions getting the questions from TriviaDB's API. Based on the button pressed, each function starts. Using the requests module, I get the questions from https://opentdb.com/api_config.php. Then, start the quiz, display the questions, get the answers and display the countdown on the TkInter frame. 
 
-After each question is displayed and we get the responses, we build a diagram pie using matplotlib and display it. We have also implemented the Re-attempt and Sign Out buttons by destroying the current frame and calling back the functions from the beginning.
+After each question is displayed and I get the responses, I build a diagram pie using matplotlib and display it. I have also implemented the Re-attempt and Sign Out buttons by destroying the current frame and calling back the functions from the beginning.
 
 # How to Run #
 In order to start the application make sure that both quiz.py and quiz-icon.png are in the same file. Otherwise, it is going to trigger a TkInter Exception. Run the following command in bash:
